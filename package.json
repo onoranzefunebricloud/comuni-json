@@ -1,12 +1,11 @@
 {
-  "name": "comuni-json",
+  "name": "@onoranzefunebricloud/comuni-json",
   "version": "1.0.0",
   "description": "Database comuni italiani",
-  "private": true,
   "main": "build.js",
   "repository": "matteocontrini/comuni-json",
   "scripts": {
-    "validate": "ajv test -s schema.json -d data/*.json --errors=text --valid",
+    "validate": "ajv test -s schema.json -d 'data/*.json' --errors=text --valid",
     "build": "node build.js"
   },
   "author": "Matteo Contrini <m.contrini@gmail.com>",
