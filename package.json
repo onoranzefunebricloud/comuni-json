@@ -2,7 +2,7 @@
   "name": "@onoranzefunebricloud/comuni-json",
   "version": "1.0.0",
   "description": "Database comuni italiani",
-  "main": "build.js",
+  "main": "index.js",
   "repository": "matteocontrini/comuni-json",
   "scripts": {
     "validate": "ajv test -s schema.json -d 'data/*.json' --errors=text --valid",
@@ -17,5 +17,8 @@
     "fast-csv": "^2.3.1",
     "request": "^2.88.0",
     "shorthash": "0.0.2"
-  }
+  },
+  "files":[
+    "comuni.json"
+  ]
 }
