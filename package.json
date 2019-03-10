@@ -1,6 +1,6 @@
 {
   "name": "@onoranzefunebricloud/comuni-json",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Database comuni italiani",
   "main": "index.js",
   "repository": "matteocontrini/comuni-json",
